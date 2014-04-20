@@ -27,11 +27,12 @@ var addCommas = function(str) {
     }
 
     var finalStr = '';
-    for(var j=0; j<threeChunks.reverse().length; j++) {
-        if(finalStr!='') {
-            finalStr = finalStr + ',' + threeChunks[j];
+    var newChunks = threeChunks.reverse()
+    for(var j=0; j<newChunks.length; j++) {
+        if(finalStr=='') {
+            finalStr = newChunks[j];
         } else {
-            finalStr = threeChunks[j];
+            finalStr = finalStr + ',' + newChunks[j];
         }
     }
 

@@ -6,7 +6,43 @@ body {
 }
 #vis {
     width: 940px;
-    height: 600px;
+    height: 450px;
     clear: both;
     margin-bottom: 10px;
+}
+.years {
+    fill:#808080;
+}
+.name {
+    color:#666666;
+    font-size:13px;
+}
+.value {
+    font-weight:bold;
+    font-size:13px;
+}
+.main-container {
+    padding:0px 5px;
+}
+.table th {
+    background:#F5F5F5;
+}
+.find-tweets input[type='text'] {
+    width:400px;
+    display:inline-block;
+    margin-right:10px;
+    margin-bottom:10px;
+}
+.find-tweets button {
+    display:inline-block;
+    margin:0;
+}
+.find-tweets {
+    margin-bottom:20px;
+}
+.small-text {
+    font-size:12px;
+}
+.grey-text {
+    color:#707070;
 }

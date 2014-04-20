@@ -1,0 +1,40 @@
+<h1>Twitter Hashtags</h1>
+<p>Enter a hashtag to find recent tweets and see where they originate from.</p>
+<div ui-chart="data" chart-options="chartOptions" ></div>
+<!--<div id="chart1"></div>
+<script>
+    $(document).ready(function(){
+      var data = [
+        ['Heavy Industry', 12],['Retail', 9], ['Light Industry', 14],
+        ['Out of home', 16],['Commuting', 7], ['Orientation', 9]
+      ];
+      var plot1 = jQuery.jqplot ('chart1', [data],
+        {
+          seriesDefaults: {
+            // Make this a pie chart.
+            renderer: jQuery.jqplot.PieRenderer,
+            rendererOptions: {
+              // Put data labels on the pie slices.
+              // By default, labels show the percentage of the slice.
+              showDataLabels: true
+            }
+          },
+          legend: { show:true, location: 'e' }
+        }
+      );
+    });
+</script>-->
+<div class="find-tweets">
+    <input type="text" ng-model="hashtag" class="form-control" placeholder="Enter a Twitter hashtag to find tweets:" />
+    <button class="btn btn-success" ng-click="getTweets()">Find Tweets</button>
+    <div class="small-text"><strong>Note:</strong> <span class="grey-text">The default value is #football</span></div>
+</div>
+<div  ng-show="tweets.length == 0"><img src="/static/img/loading.gif" border="0" /> <strong>Loading Tweets...</strong></div>
+<table ng-show="tweets.length > 0" class="table table-bordered" border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tr>
+        <th>Tweets</th>
+    </tr>
+    <tr ng-repeat="tweet in tweets">
+        <td>{[tweet.text]}</td>
+    </tr>
+</table>

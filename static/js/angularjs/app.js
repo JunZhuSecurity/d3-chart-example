@@ -4,14 +4,15 @@ var chart = angular.module('chart', [
   'hashBangURLs',
   'startSymbol',
   'ngSanitize',
-  'ui.bootstrap'
+  'ui.bootstrap',
+  'ui.chart'
 ]);
 
 chart.config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
 
-    $routeProvider.when('/circle', {
-        templateUrl: 'circle',
-        controller: 'CircleController'
+    $routeProvider.when('/pie', {
+        templateUrl: 'pie',
+        controller: 'PieController'
     });
 
     $routeProvider.when('/tree', {

@@ -17,22 +17,38 @@ BubbleChart = (function() {
     var max_amount;
     this.data = data;
     this.width = 940;
-    this.height = 600;
+    this.height = 450;
     this.center = {
       x: this.width / 2,
       y: this.height / 2
     };
     this.year_centers = {
       "2008": {
-        x: this.width / 3,
+        x: 90 * 2,
         y: this.height / 2
       },
       "2009": {
-        x: this.width / 2,
+        x: 90 * 3,
         y: this.height / 2
       },
       "2010": {
-        x: 2 * this.width / 3,
+        x: 90 * 4,
+        y: this.height / 2
+      },
+      "2011": {
+        x: 90 * 5,
+        y: this.height / 2
+      },
+      "2012": {
+        x: 90 * 6,
+        y: this.height / 2
+      },
+      "2013": {
+        x: 90 * 7,
+        y: this.height / 2
+      },
+      "2014": {
+        x: 90 * 8,
         y: this.height / 2
       }
     };
@@ -44,7 +60,7 @@ BubbleChart = (function() {
     this.circles = null;
     this.fill_color = d3.scale.ordinal().domain(["low", "medium", "high"]).range(["#d84b2a", "#beccae", "#7aa25c"]);
     max_amount = d3.max(this.data, function(d) {
-      return parseInt(d.total_amount);
+      return parseInt(d.value);
     });
     this.radius_scale = d3.scale.pow().exponent(0.5).domain([0, max_amount]).range([2, 85]);
     this.create_nodes();
@@ -57,12 +73,11 @@ BubbleChart = (function() {
         var node;
         node = {
           id: d.id,
-          radius: _this.radius_scale(parseInt(d.total_amount)),
-          value: d.total_amount,
-          name: d.grant_title,
-          org: d.organization,
+          radius: _this.radius_scale(parseInt(d.value)),
+          value: d.value,
+          name: d.name,
+          year: d.year,
           group: d.group,
-          year: d.start_year,
           x: Math.random() * 900,
           y: Math.random() * 800
         };
@@ -151,8 +166,10 @@ BubbleChart = (function() {
       return function(d) {
         var target;
         target = _this.year_centers[d.year];
-        d.x = d.x + (target.x - d.x) * (_this.damper + 0.02) * alpha * 1.1;
-        return d.y = d.y + (target.y - d.y) * (_this.damper + 0.02) * alpha * 1.1;
+        if(target != undefined) {
+            d.x = d.x + (target.x - d.x) * (_this.damper + 0.02) * alpha * 1.1;
+            return d.y = d.y + (target.y - d.y) * (_this.damper + 0.02) * alpha * 1.1;
+        }
       };
     })(this);
   };
@@ -160,15 +177,20 @@ BubbleChart = (function() {
   BubbleChart.prototype.display_years = function() {
     var years, years_data, years_x;
     years_x = {
-      "2008": 160,
-      "2009": this.width / 2,
-      "2010": this.width - 160
+      "2008": 90 * 2,
+      "2009": 90 * 3,
+      "2010": 90 * 4,
+      "2011": 90 * 5,
+      "2012": 90 * 6,
+      "2013": 90 * 7,
+      "2014": 90 * 8
     };
     years_data = d3.keys(years_x);
     years = this.vis.selectAll(".years").data(years_data);
     return years.enter().append("text").attr("class", "years").attr("x", (function(_this) {
       return function(d) {
-        return years_x[d];
+        //return years_x[d];
+          return -1000;
       };
     })(this)).attr("y", 40).attr("text-anchor", "middle").text(function(d) {
       return d;

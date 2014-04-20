@@ -1,6 +1,8 @@
-<div id="view_selection" class="btn-group">
-    <a href="#" id="all" class="btn active">All Grants</a>
-    <a href="#" id="year" class="btn">Grants By Year</a>
+<h1>Google Acquisitions</h1>
+<p>We all know that Google like to acquire innovative businesses. The bubble graph below provides an interactive view of some of their most high-profile acquisitions over the last decade.</p>
+<div id="view_selection" class="btn-group tab-buttons">
+    <button id="all" class="btn btn-default active">All Acquisitions</button>
+    <button id="year" class="btn btn-default">Acquisitions by Year</button>
 </div>
 <div id="vis"></div>
 <script type="text/javascript" src="/static/js/CustomTooltip.js"></script>
@@ -8,9 +10,9 @@
 <script type="text/javascript">
 $(document).ready(function() {
     $(document).ready(function() {
-      $('#view_selection a').click(function() {
+      $('#view_selection button').click(function() {
         var view_type = $(this).attr('id');
-        $('#view_selection a').removeClass('active');
+        $('#view_selection button').removeClass('active');
         $(this).toggleClass('active');
         toggle_view(view_type);
         return false;
