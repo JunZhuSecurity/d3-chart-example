@@ -1,1 +1,20 @@
-<div>{[title]}</div>
+<div id="view_selection" class="btn-group">
+    <a href="#" id="all" class="btn active">All Grants</a>
+    <a href="#" id="year" class="btn">Grants By Year</a>
+</div>
+<div id="vis"></div>
+<script type="text/javascript" src="/static/js/CustomTooltip.js"></script>
+<script type="text/javascript" src="static/js/d3/bubble.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+    $(document).ready(function() {
+      $('#view_selection a').click(function() {
+        var view_type = $(this).attr('id');
+        $('#view_selection a').removeClass('active');
+        $(this).toggleClass('active');
+        toggle_view(view_type);
+        return false;
+      });
+    });
+});
+</script>

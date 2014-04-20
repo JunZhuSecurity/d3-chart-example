@@ -4,3 +4,9 @@
 body {
     margin:20px;
 }
+#vis {
+    width: 940px;
+    height: 600px;
+    clear: both;
+    margin-bottom: 10px;
+}
