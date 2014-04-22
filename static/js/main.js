@@ -39,7 +39,3 @@ var addCommas = function(str) {
     return finalStr;
 
 };
-
-$(document).ready(function(){
-
-});

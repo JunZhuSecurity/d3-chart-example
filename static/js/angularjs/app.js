@@ -4,8 +4,8 @@ var chart = angular.module('chart', [
   'hashBangURLs',
   'startSymbol',
   'ngSanitize',
-  'ui.bootstrap',
-  'ui.chart'
+  'ui.chart',
+  'ui.bootstrap'
 ]);
 
 chart.config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {

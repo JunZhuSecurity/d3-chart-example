@@ -1,40 +1,118 @@
 <h1>Twitter Hashtags</h1>
 <p>Enter a hashtag to find recent tweets and see where they originate from.</p>
-<div ui-chart="data" chart-options="chartOptions" ></div>
-<!--<div id="chart1"></div>
 <script>
+
     $(document).ready(function(){
-      var data = [
-        ['Heavy Industry', 12],['Retail', 9], ['Light Industry', 14],
-        ['Out of home', 16],['Commuting', 7], ['Orientation', 9]
-      ];
-      var plot1 = jQuery.jqplot ('chart1', [data],
-        {
-          seriesDefaults: {
-            // Make this a pie chart.
-            renderer: jQuery.jqplot.PieRenderer,
-            rendererOptions: {
-              // Put data labels on the pie slices.
-              // By default, labels show the percentage of the slice.
-              showDataLabels: true
+
+        var doesGroupExist = function(tweetGroups, group) {
+            for(var j=0; j<tweetGroups.length; j++) {
+                if(tweetGroups[j].country == group) {
+                    return true;
+                }
             }
-          },
-          legend: { show:true, location: 'e' }
-        }
-      );
+            return false;
+        };
+
+        var addGroup = function(tweetGroups, group) {
+            tweetGroups.push({
+                country: group,
+                count: 1
+            });
+        };
+
+        var incrementGroup = function(tweetGroups, group) {
+            for(var j=0; j<tweetGroups.length; j++) {
+                if(tweetGroups[j].country == group) {
+                    tweetGroups[j].count++;
+                }
+            }
+        };
+
+        var plotPieChart = function() {
+
+            $('#pie-chart').hide();
+            $('.tweets-table').hide();
+
+            var tweets = JSON.parse(localStorage.getItem("tweets"));
+
+            console.log(tweets);
+
+            if(tweets != null) {
+
+                var tweetGroups = [];
+
+                var data = [
+                ];
+
+                for(var i=0; i<tweets.length; i++) {
+                    var result = doesGroupExist(tweetGroups, tweets[i].user.time_zone);
+                    if(!result) {
+                        addGroup(tweetGroups, tweets[i].user.time_zone);
+                    } else {
+                        incrementGroup(tweetGroups, tweets[i].user.time_zone);
+                    }
+                }
+
+                for(var x=0; x<tweetGroups.length; x++) {
+                    data.push([tweetGroups[x].country, tweetGroups[x].count]);
+                }
+
+                $('#pie-chart').fadeIn(400);
+                $('.tweets-table').fadeIn(400);
+
+              var plot1 = jQuery.jqplot ('pie-chart', [data],
+                {
+                  height:400,
+                  seriesDefaults: {
+                    renderer: jQuery.jqplot.PieRenderer,
+                    rendererOptions: {
+                      showDataLabels: true
+                    }
+                  },
+                  grid: {
+                      background: "#F9F9F9",
+                      borderColor:"#CCCCCC",
+                      borderWidth:1,
+                      shadow:false
+                  },
+                  legend: { show:true, location: 'e' },
+                  seriesColors: ["#F7977A", "#F9AD81", "#FDC68A", "#FFF79A", "#C4DF9B", "#A2D39C", "#82CA9D", "#7BCDC8", "#6ECFF6", "#7EA7D8", "#8493CA", "#8882BE", "#A187BE", "#BC8DBF", "#F49AC2", "#F6989D"]
+                }
+              ).replot();
+
+              localStorage.setItem("tweets", null);
+
+            } else {
+                setTimeout(function(){
+                    plotPieChart();
+                },250);
+            }
+
+        };
+
+        plotPieChart();
+
+        $('.get-tweets').click(function(){
+            plotPieChart();
+        });
+
     });
-</script>-->
+
+</script>
 <div class="find-tweets">
     <input type="text" ng-model="hashtag" class="form-control" placeholder="Enter a Twitter hashtag to find tweets:" />
-    <button class="btn btn-success" ng-click="getTweets()">Find Tweets</button>
+    <button class="btn btn-success get-tweets" ng-click="getTweets()">Find Tweets</button>
     <div class="small-text"><strong>Note:</strong> <span class="grey-text">The default value is #football</span></div>
 </div>
+<div id="pie-chart"></div>
 <div  ng-show="tweets.length == 0"><img src="/static/img/loading.gif" border="0" /> <strong>Loading Tweets...</strong></div>
-<table ng-show="tweets.length > 0" class="table table-bordered" border="0" cellpadding="0" cellspacing="0" width="100%">
+<table ng-show="tweets.length > 0" class="table table-bordered tweets-table" border="0" cellpadding="0" cellspacing="0" width="100%">
     <tr>
-        <th>Tweets</th>
+        <th>Tweet</th>
+        <th>Location</th>
     </tr>
     <tr ng-repeat="tweet in tweets">
         <td>{[tweet.text]}</td>
+        <td>{[tweet.user.time_zone]}</td>
     </tr>
 </table>

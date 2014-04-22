@@ -19,7 +19,6 @@ return {
           throw 'Invalid ui.chart options attribute';
         }
       }
-
       elem.jqplot(data, opts);
     };
 

@@ -7,6 +7,8 @@ controllers.controller('PieController', ['$scope', '$route', '$http', '$rootScop
 
     $scope.getTweets = function() {
 
+        localStorage.setItem("tweets", null);
+
         $scope.tweets = [];
 
         var hashtag = "";
@@ -17,13 +19,21 @@ controllers.controller('PieController', ['$scope', '$route', '$http', '$rootScop
         }
 
         $http({
-	        url: 'api/get-tweets?hashtag='+hashtag,
+	        url: 'api/get-tweets?hashtag=' + hashtag,
 	        method: "GET",
 	        data: '',
 	        headers: {'Content-Type': 'application/x-www-form-urlencoded'}
         }).success(function (data, status, headers, config) {
 
-            $scope.tweets = data.statuses;
+            for(var i=0; i<data.statuses.length; i++) {
+                if(data.statuses[i].user.time_zone != null) {
+                    $scope.tweets.push(data.statuses[i]);
+                }
+            }
+
+            localStorage.setItem("tweets", JSON.stringify($scope.tweets));
+
+            console.log($scope.tweets);
 
         }).error(function (data, status, headers, config) {
 
@@ -31,24 +41,6 @@ controllers.controller('PieController', ['$scope', '$route', '$http', '$rootScop
 
         });
 
-    };
-
-    $scope.data = [[
-        ['Heavy Industry', 12],['Retail', 9], ['Light Industry', 14],
-        ['Out of home', 16],['Commuting', 7], ['Orientation', 9]
-     ]];
-
-    $scope.chartOptions = {
-        seriesDefaults: {
-          // Make this a pie chart.
-          renderer: jQuery.jqplot.PieRenderer,
-          rendererOptions: {
-            // Put data labels on the pie slices.
-            // By default, labels show the percentage of the slice.
-            showDataLabels: true
-          }
-        },
-        legend: { show:true, location: 'e' }
     };
 
     $scope.getTweets();

@@ -46,3 +46,10 @@ body {
 .grey-text {
     color:#707070;
 }
+.jqplot-table-legend {
+    padding:5px;
+}
+table.jqplot-table-legend {
+    overflow-y:scroll;
+    max-height:100px;
+}

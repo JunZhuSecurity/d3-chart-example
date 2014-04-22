@@ -2,32 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c405486-a31e-4fa5-a3b4-c14b2c6966ad" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/favicon-chart.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/angularjs/lib/angular-ui-chart.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/jqplot/jqplot.donutRenderer.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/jqplot/jqplot.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/jqplot/jqplot.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/jqplot/jqplot.pieRenderer.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter/tests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twitter/views.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/circle/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/circle/models.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/circle/tests.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/circle/views.py" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/angularjs/controllers/circle.js" afterPath="$PROJECT_DIR$/static/js/angularjs/controllers/pie.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/templates/circle.html" afterPath="$PROJECT_DIR$/templates/pie.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/angularjs/lib/angular-ui-chart.js" afterPath="$PROJECT_DIR$/static/js/angularjs/lib/angular-ui-chart.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/angularjs/app.js" afterPath="$PROJECT_DIR$/static/js/angularjs/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/bubble.html" afterPath="$PROJECT_DIR$/templates/bubble.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/d3/bubble.js" afterPath="$PROJECT_DIR$/static/js/d3/bubble.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/csv/gates_money.csv" afterPath="$PROJECT_DIR$/static/csv/gates_money.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/home.html" afterPath="$PROJECT_DIR$/templates/home.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/templates/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/jquery/jquery.min.js" afterPath="$PROJECT_DIR$/static/js/jquery/jquery.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/main.css" afterPath="$PROJECT_DIR$/static/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/main.js" afterPath="$PROJECT_DIR$/static/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/incopro/urls.py" afterPath="$PROJECT_DIR$/incopro/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/pie.html" afterPath="$PROJECT_DIR$/templates/pie.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/angularjs/controllers/pie.js" afterPath="$PROJECT_DIR$/static/js/angularjs/controllers/pie.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Incopro.iws" />
@@ -60,10 +42,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pie.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="pie.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/js/angularjs/controllers/pie.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="0" selection-start="797" selection-end="797" vertical-scroll-proportion="0.8141962" vertical-offset="0" max-vertical-offset="915">
+            <state line="43" column="6" selection-start="1273" selection-end="1273" vertical-scroll-proportion="0.0" vertical-offset="199" max-vertical-offset="795">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="angular-ui-chart.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/js/angularjs/lib/angular-ui-chart.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="7" selection-start="576" selection-end="576" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="585">
               <folding />
             </state>
           </provider>
@@ -72,7 +63,7 @@
       <file leaf-file-name="pie.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/pie.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="57" selection-start="1079" selection-end="1079" vertical-scroll-proportion="-13.083333" vertical-offset="106" max-vertical-offset="675">
+            <state line="33" column="36" selection-start="961" selection-end="961" vertical-scroll-proportion="-7.5833335" vertical-offset="313" max-vertical-offset="1845">
               <folding />
             </state>
           </provider>
@@ -81,7 +72,7 @@
       <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="23" selection-start="480" selection-end="480" vertical-scroll-proportion="0.0" vertical-offset="112" max-vertical-offset="795">
+            <state line="53" column="21" selection-start="772" selection-end="772" vertical-scroll-proportion="0.0" vertical-offset="231" max-vertical-offset="900">
               <folding />
             </state>
           </provider>
@@ -90,16 +81,16 @@
       <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/js/angularjs/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="11" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0" vertical-offset="607" max-vertical-offset="1200">
+            <state line="9" column="0" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="1200">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="82" selection-start="1887" selection-end="1887" vertical-scroll-proportion="-15.0" vertical-offset="0" max-vertical-offset="1020">
+            <state line="43" column="54" selection-start="2880" selection-end="2880" vertical-scroll-proportion="0.3846154" vertical-offset="420" max-vertical-offset="1005">
               <folding />
             </state>
           </provider>
@@ -108,7 +99,7 @@
       <file leaf-file-name="home.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="45" selection-start="324" selection-end="324" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="195">
+            <state line="5" column="61" selection-start="391" selection-end="391" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="195">
               <folding />
             </state>
           </provider>
@@ -160,25 +151,25 @@
         <option value="$PROJECT_DIR$/static/js/d3/d3.layout.js" />
         <option value="$PROJECT_DIR$/static/js/angularjs/controllers/bubble.js" />
         <option value="$PROJECT_DIR$/static/js/CustomTooltip.js" />
-        <option value="$PROJECT_DIR$/static/js/main.js" />
         <option value="$PROJECT_DIR$/templates/bubble.html" />
         <option value="$PROJECT_DIR$/static/csv/gates_money.csv" />
         <option value="$PROJECT_DIR$/circle/views.py" />
         <option value="$PROJECT_DIR$/incopro/urls.py" />
         <option value="$PROJECT_DIR$/static/js/d3/bubble.js" />
-        <option value="$PROJECT_DIR$/templates/home.html" />
         <option value="$PROJECT_DIR$/static/js/jqplot/jqplot.min.js" />
         <option value="$PROJECT_DIR$/static/js/jqplot/jqplot.pieRenderer.min.js" />
         <option value="$PROJECT_DIR$/static/js/jqplot/jqplot.donutRenderer.min.js" />
         <option value="$PROJECT_DIR$/static/css/jqplot/jqplot.min.css" />
         <option value="$PROJECT_DIR$/static/js/jquery/jquery.min.js" />
+        <option value="$PROJECT_DIR$/twitter/views.py" />
         <option value="$PROJECT_DIR$/static/js/angularjs/app.js" />
-        <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/static/js/main.js" />
         <option value="$PROJECT_DIR$/static/js/angularjs/lib/angular-ui-chart.js" />
+        <option value="$PROJECT_DIR$/templates/home.html" />
+        <option value="$PROJECT_DIR$/static/js/angularjs/controllers/pie.js" />
         <option value="$PROJECT_DIR$/static/css/main.css" />
         <option value="$PROJECT_DIR$/templates/pie.html" />
-        <option value="$PROJECT_DIR$/twitter/views.py" />
-        <option value="$PROJECT_DIR$/static/js/angularjs/controllers/pie.js" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
       </list>
     </option>
   </component>
@@ -214,6 +205,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -408,72 +400,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angularjs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="incopro" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="incopro" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="incopro" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="incopro" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jqplot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="incopro" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="incopro" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="incopro" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -494,7 +420,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -769,7 +694,11 @@
       <created>1398011694643</created>
       <updated>1398011694643</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Twitter API integration">
+      <created>1398032037452</created>
+      <updated>1398032037452</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -779,17 +708,17 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2130719" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32026145" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16732027" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2130719" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -811,7 +740,8 @@
     </option>
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Bubble chart" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bubble chart" />
+    <MESSAGE value="Twitter API integration" />
+    <option name="LAST_COMMIT_MESSAGE" value="Twitter API integration" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -849,11 +779,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/static/js/angularjs/lib/angular-sanitize.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="170" selection-start="3882" selection-end="3882" vertical-scroll-proportion="0.40089086" vertical-offset="0" max-vertical-offset="449">
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
+        <state line="12" column="170" selection-start="3882" selection-end="3882" vertical-scroll-proportion="0.40089086" vertical-offset="0" max-vertical-offset="449" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/js/angularjs/lib/angular-route.min.js">
@@ -870,18 +796,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/static/js/angularjs/lib/angular-ui-bootstrap.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3676" column="4" selection-start="125948" selection-end="125948" vertical-scroll-proportion="0.8953229" vertical-offset="54738" max-vertical-offset="55230">
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
+        <state line="3676" column="4" selection-start="125948" selection-end="125948" vertical-scroll-proportion="0.8953229" vertical-offset="54738" max-vertical-offset="55230" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/js/angularjs/controllers/tree.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="24" selection-start="260" selection-end="260" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
-          <folding />
-        </state>
+        <state line="4" column="24" selection-start="260" selection-end="260" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bubble/views.py">
@@ -921,23 +841,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/static/js/angularjs/lib/angular.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20797" column="253" selection-start="735163" selection-end="735163" vertical-scroll-proportion="0.0" vertical-offset="309050" max-vertical-offset="309690">
-          <folding />
-        </state>
+        <state line="20797" column="253" selection-start="735163" selection-end="735163" vertical-scroll-proportion="0.0" vertical-offset="309050" max-vertical-offset="309690" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/json/bubble.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="379" column="1" selection-start="11413" selection-end="11413" vertical-scroll-proportion="9.973684" vertical-offset="0" max-vertical-offset="5775">
-          <folding />
-        </state>
+        <state line="379" column="1" selection-start="11413" selection-end="11413" vertical-scroll-proportion="9.973684" vertical-offset="0" max-vertical-offset="5775" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/js/d3/highlight.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="9538" selection-start="17716" selection-end="17716" vertical-scroll-proportion="0.026929982" vertical-offset="0" max-vertical-offset="557">
-          <folding />
-        </state>
+        <state line="1" column="9538" selection-start="17716" selection-end="17716" vertical-scroll-proportion="0.026929982" vertical-offset="0" max-vertical-offset="557" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/js/d3/packages.js">
@@ -947,9 +861,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/static/js/d3/d3.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="25398" selection-start="58172" selection-end="58172" vertical-scroll-proportion="0.02586207" vertical-offset="0" max-vertical-offset="580">
-          <folding />
-        </state>
+        <state line="1" column="25398" selection-start="58172" selection-end="58172" vertical-scroll-proportion="0.02586207" vertical-offset="0" max-vertical-offset="580" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/js/angularjs/controllers/bubble.js">
@@ -969,9 +881,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/static/js/d3/d3.layout.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="17454" selection-start="17454" selection-end="17454" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="557">
-          <folding />
-        </state>
+        <state line="0" column="17454" selection-start="17454" selection-end="17454" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="557" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/js/d3/d3.csv.min.js">
@@ -981,21 +891,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/static/js/d3/d3.geom.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="7730" selection-start="7730" selection-end="7730" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="580">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="5" selection-start="589" selection-end="589" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="750" />
+        <state line="0" column="7730" selection-start="7730" selection-end="7730" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="580" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/csv/gates_money.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="24" selection-start="178" selection-end="178" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="705">
-          <folding />
-        </state>
+        <state line="5" column="24" selection-start="178" selection-end="178" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="705" />
       </provider>
       <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
@@ -1003,35 +904,76 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tree/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="84" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="84" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/twitter/tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="551">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="551" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/twitter/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="551">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="551" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/twitter/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="574">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="574" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/bubble.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="27" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="537">
+        <state line="0" column="27" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="537" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/jqplot/jqplot.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="127529" selection-start="128732" selection-end="128732" vertical-scroll-proportion="0.75" vertical-offset="0" max-vertical-offset="580" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/jqplot/jqplot.donutRenderer.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="13035" selection-start="14238" selection-end="14238" vertical-scroll-proportion="0.7809695" vertical-offset="0" max-vertical-offset="557" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/jqplot/jqplot.pieRenderer.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="13353" selection-start="14556" selection-end="14556" vertical-scroll-proportion="0.75" vertical-offset="0" max-vertical-offset="580" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/jqplot/jqplot.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="3257" selection-start="3257" selection-end="3257" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="580" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/jquery/jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="5" selection-start="96629" selection-end="96629" vertical-scroll-proportion="0.31034482" vertical-offset="0" max-vertical-offset="580" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/incopro/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="26" selection-start="460" selection-end="460" vertical-scroll-proportion="0.42682928" vertical-offset="0" max-vertical-offset="492">
+          <folding>
+            <element signature="e#0#51#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twitter/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="309" selection-start="446" selection-end="446" vertical-scroll-proportion="0.21920668" vertical-offset="0" max-vertical-offset="479" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="2" selection-start="876" selection-end="876" vertical-scroll-proportion="0.9852217" vertical-offset="0" max-vertical-offset="690" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/angularjs/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1200">
           <folding />
         </state>
       </provider>
@@ -1043,106 +985,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/jqplot/jqplot.min.js">
+    <entry file="file://$PROJECT_DIR$/static/js/angularjs/lib/angular-ui-chart.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="127529" selection-start="128732" selection-end="128732" vertical-scroll-proportion="0.75" vertical-offset="0" max-vertical-offset="580">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/jqplot/jqplot.donutRenderer.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="13035" selection-start="14238" selection-end="14238" vertical-scroll-proportion="0.7809695" vertical-offset="0" max-vertical-offset="557">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/jqplot/jqplot.pieRenderer.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="13353" selection-start="14556" selection-end="14556" vertical-scroll-proportion="0.75" vertical-offset="0" max-vertical-offset="580">
+        <state line="20" column="7" selection-start="576" selection-end="576" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="45" selection-start="324" selection-end="324" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="195">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/jqplot/jqplot.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="3257" selection-start="3257" selection-end="3257" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="580">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/jquery/jquery.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="5" selection-start="96629" selection-end="96629" vertical-scroll-proportion="0.31034482" vertical-offset="0" max-vertical-offset="580">
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/angularjs/lib/angular-ui-chart.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="17" selection-start="756" selection-end="767" vertical-scroll-proportion="0.7588533" vertical-offset="0" max-vertical-offset="600">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="23" selection-start="480" selection-end="480" vertical-scroll-proportion="0.0" vertical-offset="112" max-vertical-offset="795">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/pie.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="57" selection-start="1079" selection-end="1079" vertical-scroll-proportion="-13.083333" vertical-offset="106" max-vertical-offset="675">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/incopro/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="26" selection-start="460" selection-end="460" vertical-scroll-proportion="0.42682928" vertical-offset="0" max-vertical-offset="492">
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/angularjs/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="11" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0" vertical-offset="607" max-vertical-offset="1200">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/twitter/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="309" selection-start="446" selection-end="446" vertical-scroll-proportion="0.21920668" vertical-offset="0" max-vertical-offset="479">
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="82" selection-start="1887" selection-end="1887" vertical-scroll-proportion="-15.0" vertical-offset="0" max-vertical-offset="1020">
+        <state line="5" column="61" selection-start="391" selection-end="391" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="195">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/js/angularjs/controllers/pie.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="797" selection-end="797" vertical-scroll-proportion="0.8141962" vertical-offset="0" max-vertical-offset="915">
+        <state line="43" column="6" selection-start="1273" selection-end="1273" vertical-scroll-proportion="0.0" vertical-offset="199" max-vertical-offset="795">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="21" selection-start="772" selection-end="772" vertical-scroll-proportion="0.0" vertical-offset="231" max-vertical-offset="900">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/pie.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="36" selection-start="961" selection-end="961" vertical-scroll-proportion="-7.5833335" vertical-offset="313" max-vertical-offset="1845">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="54" selection-start="2880" selection-end="2880" vertical-scroll-proportion="0.3846154" vertical-offset="420" max-vertical-offset="1005">
           <folding />
         </state>
       </provider>
