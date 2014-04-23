@@ -259,5 +259,5 @@ $(function() {
       }
     };
   })(this);
-  return d3.csv("static/csv/gates_money.csv", render_vis);
+  return d3.csv("static/csv/google-data.csv", render_vis);
 });
