@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c405486-a31e-4fa5-a3b4-c14b2c6966ad" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/jqplot/jqplot.cursor.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/jqplot/jqplot.highlighter.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/templates/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/pie.html" afterPath="$PROJECT_DIR$/templates/pie.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/bubble.html" afterPath="$PROJECT_DIR$/templates/bubble.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Incopro.iws" />
@@ -38,10 +35,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pie.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="pie.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/js/angularjs/controllers/pie.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="47" selection-start="1199" selection-end="1199" vertical-scroll-proportion="0.45302013" vertical-offset="360" max-vertical-offset="1740">
+            <state line="42" column="47" selection-start="1199" selection-end="1199" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="1740">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bubble.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/bubble.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="21" selection-start="459" selection-end="459" vertical-scroll-proportion="0.16393442" vertical-offset="0" max-vertical-offset="549">
               <folding />
             </state>
           </provider>
@@ -154,7 +160,6 @@
         <option value="$PROJECT_DIR$/static/js/d3/d3.layout.js" />
         <option value="$PROJECT_DIR$/static/js/angularjs/controllers/bubble.js" />
         <option value="$PROJECT_DIR$/static/js/CustomTooltip.js" />
-        <option value="$PROJECT_DIR$/templates/bubble.html" />
         <option value="$PROJECT_DIR$/static/csv/gates_money.csv" />
         <option value="$PROJECT_DIR$/circle/views.py" />
         <option value="$PROJECT_DIR$/incopro/urls.py" />
@@ -175,6 +180,7 @@
         <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/templates/pie.html" />
         <option value="$PROJECT_DIR$/static/js/angularjs/controllers/pie.js" />
+        <option value="$PROJECT_DIR$/templates/bubble.html" />
       </list>
     </option>
   </component>
@@ -715,7 +721,11 @@
       <created>1398235166305</created>
       <updated>1398235166305</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Pie chart fix with Angular">
+      <created>1398236925761</created>
+      <updated>1398236925761</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -798,7 +808,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/static/css/fontawesome/font-awesome.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="311" selection-start="473" selection-end="473" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135" />
+        <state line="3" column="311" selection-start="473" selection-end="473" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/js/angularjs/lib/angular-ui-bootstrap.js">
@@ -929,11 +941,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="574" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/bubble.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="27" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="537" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/js/jqplot/jqplot.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="127529" selection-start="128732" selection-end="128732" vertical-scroll-proportion="0.75" vertical-offset="0" max-vertical-offset="580" />
@@ -1045,7 +1052,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/static/js/angularjs/controllers/pie.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="47" selection-start="1199" selection-end="1199" vertical-scroll-proportion="0.45302013" vertical-offset="360" max-vertical-offset="1740">
+        <state line="42" column="47" selection-start="1199" selection-end="1199" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="1740">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/bubble.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="21" selection-start="459" selection-end="459" vertical-scroll-proportion="0.16393442" vertical-offset="0" max-vertical-offset="549">
           <folding />
         </state>
       </provider>
